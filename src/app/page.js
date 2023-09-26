@@ -20,7 +20,7 @@ export default function Home() {
         <ul>
           {info.map((country, index) => (
             <li  key={index}>
-              <h2>COUNTRY NAME: {country.name.common} CAPITOL: {country.capital} REGION: {country.region} </h2>
+              <h2>COUNTRY NAME: {country.name.common} CAPITAL: {country.capital} REGION: {country.region} </h2>
               {country.flags && (
                 <img
                   src={country.flags.png}
